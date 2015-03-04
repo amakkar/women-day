@@ -2,7 +2,7 @@ package common;
 
 public interface Constant {
 
-	String ITEMS_PAGE = "items";
+	String ITEMS_PAGE = "products";
 	
 	
 

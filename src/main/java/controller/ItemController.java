@@ -8,6 +8,7 @@ import model.Item;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import service.ItemService;
@@ -35,7 +36,7 @@ public class ItemController {
 		
 		return mv;
 	}
-	@RequestMapping("/filter-area")
+	@RequestMapping(method=RequestMethod.POST, value="/filter-area")
 	public ModelAndView filterArea(final HttpServletRequest request) {
 		String cityInfo = request.getParameter("city");
 		String localityInfo = request.getParameter("locality");
