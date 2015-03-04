@@ -1,5 +1,9 @@
 package service;
 
-public class UserService {
+import model.User;
+
+public interface UserService {
+	
+	User getUser();
 
 }
