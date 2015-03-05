@@ -8,10 +8,10 @@
 <html>
    <head>
       <title>The Yolk Website Template :: w3layouts</title>
-      <link href="../../resources/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-      <link href="../../resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
-      <link href="../../resources/css/theme.css" rel='stylesheet' type='text/css' />
-      <link href="../../resources/css/custom.css" rel='stylesheet' type='text/css' />
+      <link href="resources/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+      <link href="resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
+      <link href="resources/css/theme.css" rel='stylesheet' type='text/css' />
+      <link href="resources/css/custom.css" rel='stylesheet' type='text/css' />
 
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -19,16 +19,16 @@
       <!----webfonts---->
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
       <!----//webfonts---->
-      <script type="text/javascript" src="../../resources/js/jquery.min.js"></script>
-      <script type="text/javascript" src="../../resources/js/bootstrap.js"></script>
-      <script type="text/javascript" src="../../resources/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="../../resources/js/custom.js"></script>
+      <script type="text/javascript" src="resources/js/jquery.min.js"></script>
+      <script type="text/javascript" src="resources/js/bootstrap.js"></script>
+      <script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="resources/js/custom.js"></script>
       <!--  jquery plguin -->
-      <script type="text/javascript" src="../../resources/js/jquery.min.js"></script>
+      <script type="text/javascript" src="resources/js/jquery.min.js"></script>
       <!-- star rating plugin -->
       <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
-      <link href="../../resources/css/raterater.css" rel="stylesheet"/>
-      <script src="../../resources/js/raterater.jquery.js"></script> 
+      <link href="resources/css/raterater.css" rel="stylesheet"/>
+      <script src="resources/js/raterater.jquery.js"></script> 
    </head>
    <body>
     <div class="md-col-12 banner-form" id="">
@@ -166,7 +166,7 @@
                         <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
                             <div class="portfolio-wrapper">     
                                 <a data-toggle="modal" data-target="#myModal" href="#" class="b-link-stripe b-animate-go  thickbox">
-                                 <img src="../../resources/images/cont1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="../../resources/images/link-ico.png" alt=""/></h2>
+                                 <img src="resources/images/cont1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="resources/images/link-ico.png" alt=""/></h2>
                                 </div></a>
                             </div>
                         </div>      
@@ -181,7 +181,7 @@
                         <div class="modal fade bs-example-modal-md light-box" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                           <div class="modal-dialog modal-md">
                             <div class="modal-content light-box-info">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="../../resources/images/close.png" title="close" /></button>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="resources/images/close.png" title="close" /></button>
                             <div class="banner-form">
                               <h3>Item Name Here</h3>
                            </div>
@@ -225,7 +225,7 @@
                         <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
                             <div class="portfolio-wrapper">     
                                 <a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
-                                 <img src="../../resources/images/cont2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="../../resources/images/link-ico.png" alt=""/></h2>
+                                 <img src="resources/images/cont2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="resources/images/link-ico.png" alt=""/></h2>
                                 </div></a>
                             </div>
                         </div>      
@@ -239,7 +239,7 @@
                         <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
                             <div class="portfolio-wrapper">     
                                 <a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
-                                 <img src="../../resources/images/cont3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="../../resources/images/link-ico.png" alt=""/></h2>
+                                 <img src="resources/images/cont3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="resources/images/link-ico.png" alt=""/></h2>
                                 </div></a>
                             </div>
                         </div>      
@@ -253,7 +253,7 @@
                         <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
                             <div class="portfolio-wrapper">     
                                 <a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
-                                 <img src="../../resources/images/cont4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="../../resources/images/link-ico.png" alt=""/></h2>
+                                 <img src="resources/images/cont4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="resources/images/link-ico.png" alt=""/></h2>
                                 </div></a>
                             </div>
                         </div>      
@@ -267,7 +267,7 @@
                         <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
                             <div class="portfolio-wrapper">     
                                 <a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
-                                 <img src="../../resources/images/cont2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="../../resources/images/link-ico.png" alt=""/></h2>
+                                 <img src="resources/images/cont2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="resources/images/link-ico.png" alt=""/></h2>
                                 </div></a>
                             </div>
                         </div>                      

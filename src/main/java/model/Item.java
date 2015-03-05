@@ -2,11 +2,16 @@ package model;
 
 import java.sql.Timestamp;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -17,8 +22,9 @@ public class Item {
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	private String email;
 	private String title;
+	@ManyToOne(cascade=CascadeType.ALL)
+	private User user;
 	private Integer price;
 	private Integer quantity;
 	private String description;
@@ -26,6 +32,9 @@ public class Item {
 	private Timestamp validFrom;
 	@Column(name = "valid_till")
 	private Timestamp validTill;
+	@OneToOne(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
+	@JoinColumn(name="addr_id",nullable=true, insertable=true, updatable=true)
+	private Address address;
 
 	public Integer getId() {
 		return id;
@@ -33,14 +42,6 @@ public class Item {
 
 	public void setId(Integer id) {
 		this.id = id;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
 	}
 
 	public String getTitle() {
@@ -90,4 +91,22 @@ public class Item {
 	public void setValidTill(Timestamp validTill) {
 		this.validTill = validTill;
 	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+	
 }
