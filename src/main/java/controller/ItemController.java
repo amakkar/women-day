@@ -90,6 +90,11 @@ public class ItemController {
 		return "products";
 	}
 	
+	@RequestMapping(method=RequestMethod.GET, value="/add-dish")
+	public String addProductForm(final HttpServletRequest request) {
+		return "add_product";
+	}
+	
 	
 	
 }

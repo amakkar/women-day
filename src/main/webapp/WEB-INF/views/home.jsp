@@ -47,8 +47,8 @@
 	<div id="sticky" class="row" style="background-color: #869D8F">
 		<div class="col-md-6 col-md-offset-3" style="padding: 2% 0%"
 			align="center">
-			<button class='btn btn-lg main-button'>Cook Food</button>
-
+			<input type="button" class='btn btn-lg main-button'
+				 onclick="document.location.href='add-dish'" value="Cook Food">
 			<button class='btn btn-lg main-button' data-toggle="modal"
 				data-target="#myModal">Buy Food</button>
 		</div>
